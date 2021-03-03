@@ -1,0 +1,30 @@
+{
+  "name": "tp-responsive-02-grid",
+  "version": "1.0.0",
+  "description": "Pour se familiariser avec les différentes propriétés : [Grid Garden](https://cssgridgarden.com/#fr)",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Han-Ouais/tp-responsive-02-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Han-Ouais/tp-responsive-02-grid/issues"
+  },
+  "homepage": "https://github.com/Han-Ouais/tp-responsive-02-grid#readme"
+}
