@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Han-Ouais/tp-responsive-02-grid.git"
+    "url": "git+https://github.com/Han-Ouais/associsson.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Han-Ouais/tp-responsive-02-grid/issues"
+    "url": "https://github.com/Han-Ouais/associsson/issues"
   },
-  "homepage": "https://github.com/Han-Ouais/tp-responsive-02-grid#readme"
+  "homepage": "https://github.com/Han-Ouais/associsson#readme"
 }
