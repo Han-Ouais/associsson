@@ -8,12 +8,13 @@
     <link rel='stylesheet' href='style.scss' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body class='body'>
 
     <header class='header'>
-    <img class='header__logo' src='assets/img/logo.png' alt="Logo Assoc'isson"/>
-    <h2 class='header__slogan'>Le terroir à l'unisson !</h2>
+      <img class='header__logo' src='assets/img/logo.png' alt="Logo Assoc'isson"/>
+      <h2 class='header__slogan'>Le terroir à l'unisson !</h2>
     </header>
 
     <nav class='navbar'>
@@ -22,7 +23,7 @@
           <a href='#qui' class='navbar__link'>Qui sommes-nous ?</a>
         </li>
         <li class='navbar__element'>
-          <a href='#qui' class='navbar__link'>Notre engagement</a>
+          <a href='#engagement' class='navbar__link'>Notre engagement</a>
         </li>
         <li class='navbar__element'>
           <a href='#qui' class='navbar__link'>Agenda</a>
@@ -30,13 +31,74 @@
       </ul>
     </nav>
 
+  <main class='main'>
+
     <section class='qui' id='qui'>
       <div class='qui__entilted'>
         <div class='barre1'></div>
         <h2 class='qui__title'>Qui sommes-nous ?</h2>
         <div class='barre2'></div>
       </div>
+
+      <figure class='qui__figure'>
+        <img class='qui__illustration' id='qui__illustration' src='assets\img\associsson.jpg' alt="Le collectif Assoc'isson"/>
+        <figcaption>
+          <label for='qui__illustration' class='qui__description'>La fière équipe au complet</label>
+        </figcaption>
+      </figure>
+
+      <article class='qui__article'>
+        <p class='qui__presentation'>Basée dans la petite bourgade de Jambognac dans le Périgord Noir, l'Assoc'isson est un collectif formé de petits commerçants locaux, agriculteurs, éleveurs, joueurs de pétanque, et bien d'autres. Ce qui unit les membres de l'Assoc'isson, c'est d'abord l'amour inconditionné de notre terroir français et du patrimoine rural en général, qui se trouve aujourd'hui menacé par la toute puissance des grandes villes.</p>
+      </article>
     </section>
+
+    <div class='intersection'></div>
+
+    <section id='engagement' class='engagement'>
+      <div class='engagement__entilted'>
+        <div class='barre1'></div>
+        <h2 class='engagement__title'>Notre engagement</h2>
+        <div class='barre2'></div>
+      </div>
+
+      <figure class='engagement__figure engagement__figure--1'>
+        <img class='engagement__illustration engagement__illustration--1' id='engagement__illustration1' src='assets\img\livraison-1.jpg' alt="Agriculteur de Jambognac charcutier Gautier"/>
+        <figcaption class='engagement__figcaption engagement__figcaption--1'>
+          <label for='engagement__illustration1' class='engagement__description engagement__description--1'>La 4L de Jacky le livreur</label>
+        </figcaption>
+      </figure>
+
+      <article class='engagement__article engagement__article--1'>
+        <p class='engagement__presentation engagement__presentation--1'>Face à l'hyper-capitalisation du secteur alimentaire, et à la concurrence déloyale des grands exportateurs agricoles, nous faisons tout pour faire prospérer les producteurs locaux. Quoi de mieux que de profiter de son terroir, de ses traditions, et de faire vivre sa région ? L'Assoc'isson, fière des talents culinaires de la région, assure depuis 1992 un service de livraison à domicile à Jambognac et ses alentours, de produits frais et succulents. De quoi faire vivre les locaux et satisfaire les habitants du coin ! L'Assoc'isson est également présente partout en France, et organise des événements ayant pour but de lever le voile nos producteur, et en faire la promotion.</p>
+      </article>
+
+      <figure class='engagement__figure engagement__figure--2'>
+        <img class='engagement__illustration engagement__illustration--2' id='engagement__illustration2' src='assets\img\charcutier-1.jpg' alt="Agriculteur de Jambognac charcutier Gautier"/>
+        <figcaption class='engagement__figcaption engagement__figcaption--2'>
+          <label for='engagement__illustration2' class='engagement__description engagement__description--2'>Gautier le charcutier de Saucissonville</label>
+        </figcaption>
+        <img class='engagement__illustration engagement__illustration--3' id='engagement__illustration3' src='assets\img\agriculteur-1.jpg' alt="Agriculteur de Jambognac fromager Gégé"/>
+        <figcaption class='engagement__figcaption--3'>
+          <label for='engagement__illustration3' class='engagement__description engagement__description--3'>Gégé le fromager de Terriniac</label>
+        </figcaption>
+      </figure>
+
+      <article class='engagement__article engagement__article--2'>
+        <p class='engagement__presentation engagement__presentation--2'>Chaque Samedi, l'Assoc'isson organise, en partenariat avec les commerçants et agriculteurs de la région, un marché sur la Place de Jambognac. Une belle occasion pour les artisans d'être en contact avec les consommateurs, et pour les habitants du coin de faire le plein de succulents mets de leur région ! Venez découvrir Gautier le charcutier, Gégé le fromager, Maurice le producteur de pastis, Baptiste le caviste, et les 17 autres producteurs venant de Jambognac, Vinrougignon, Terriniac, Saucissonville et Pétanbourg.</p>
+      </article>
+    </section>
+  
+    <div class='intersection'></div>
+
+    <section class='agenda' id='agenda'>
+      <div class='agenda__entilted'>
+        <div class='barre1'></div>
+        <h2 class='agenda__title'>Qui sommes-nous ?</h2>
+        <div class='barre2'></div>
+      </div>
+    </section>
+
+  </main>
 
   </body>
 </html>

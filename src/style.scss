@@ -3,11 +3,43 @@
 }
 
 .body {
-  margin: 0px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 h2 {
   font-family: "Akaya Telivigala", cursive;
+}
+
+article {
+  align-self: center !important;
+}
+
+.intersection {
+  margin-top: 1rem;
+
+  width: 100vw;
+  height: 20vh;
+
+  background: linear-gradient(rgba(29, 21, 21, 0.25), rgba(0, 0, 0, 0.25)),
+    url("assets/img/bg-1.jpg");
+  background-size: 100%;
+  background-position: right;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+p {
+  background-color: rgb(247, 247, 247);
+  padding: 1rem;
 }
 
 .header {
@@ -22,6 +54,7 @@ h2 {
     url("assets/img/bg__header.jpg");
   background-size: 110%;
   background-position: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 
   .header__logo {
@@ -36,36 +69,153 @@ h2 {
   }
 }
 
+.barre1 {
+  height: 6px;
+  background-color: #c62828;
+  grid-column: 1;
+  align-self: center;
+}
+
+.barre2 {
+  height: 6px;
+  background-color: #c62828;
+  grid-column: 3;
+  align-self: center;
+}
+
 .navbar {
   display: none;
 }
 
 .qui {
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.1rem;
 
+  display: grid;
+  grid-template-columns: 1fr;
+
   .qui__entilted {
+    grid-row: 1;
     display: grid;
-    grid-template-columns: 1fr auto 5fr;
+    grid-template-columns: 1fr auto 2fr;
     grid-gap: 0.5rem;
 
     .qui__title {
       color: #c62828;
       grid-column: 2;
     }
+  }
 
-    .barre1 {
-      height: 6px;
-      background-color: #c62828;
-      grid-column: 1;
-      align-self: center;
+  .qui__figure {
+    grid-row: 3;
+    margin: 0;
+    text-align: center;
+
+    .qui__illustration {
+      max-width: 90vw;
+      height: auto;
     }
 
-    .barre2 {
-      height: 6px;
-      background-color: #c62828;
-      grid-column: 3;
-      align-self: center;
+    .qui__description {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: rgb(102, 102, 102);
+    }
+  }
+
+  .qui__article {
+    grid-row: 2;
+    margin: 0 0 35px 0;
+    max-width: 650px;
+  }
+
+  .qui__presentation {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.engagement {
+  padding: 1rem;
+  font-size: 1.1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .engagement__entilted {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr auto 1fr;
+    grid-gap: 0.5rem;
+
+    .engagement__title {
+      color: #c62828;
+      grid-column: 2;
+    }
+  }
+
+  .engagement__figure {
+    grid-row: 3;
+    margin: 0;
+    text-align: center;
+
+    .engagement__illustration {
+      max-width: 90vw;
+      height: auto;
+    }
+
+    .engagement__description {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: rgb(102, 102, 102);
+    }
+  }
+
+  .engagement__article {
+    grid-row: 2;
+    margin: 0 0 35px 0;
+    max-width: 650px;
+  }
+
+  .engagement__presentation {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .engagement__figure--2 {
+    grid-row: 5;
+  }
+
+  .engagement__article--2 {
+    margin-top: 2.5rem;
+    grid-row: 4;
+  }
+
+  .engagement__figcaption--2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .engagement__article {
+    margin-bottom: 2.7rem;
+  }
+}
+
+.agenda {
+  padding: 1rem;
+  font-size: 1.1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .agenda__entilted {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr auto 2fr;
+    grid-gap: 0.5rem;
+
+    .agenda__title {
+      color: #c62828;
+      grid-column: 2;
     }
   }
 }
