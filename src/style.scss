@@ -218,4 +218,66 @@ p {
       grid-column: 2;
     }
   }
+
+  .eventGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .event {
+    background-color: rgb(220, 220, 220);
+    font-size: 0.9rem;
+    width: 90vw;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    /*
+    border-style: solid;
+    border-width: 7px;
+    border-color: #c62828;
+    */
+
+    .event__presentation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .event__trait {
+      width: 50%;
+      height: 3px;
+      background-color: #c62828;
+    }
+
+    .event__date {
+      color: #9c2121;
+      font-family: "Akaya Telivigala", cursive;
+      font-size: 2rem;
+      margin: 1.2rem 0 1.2rem 0;
+    }
+
+    .event__figure {
+      margin: 0;
+      text-align: center;
+
+      .event__illustration {
+        max-width: 90%;
+      }
+
+      .event__description {
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 0;
+      }
+
+      .event__title {
+        font-family: "Akaya Telivigala", cursive;
+        font-size: 1.6rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }

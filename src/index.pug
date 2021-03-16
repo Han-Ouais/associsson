@@ -12,11 +12,16 @@
   </head>
   <body class='body'>
 
+
+  <!-- ===== START HEADER ===== -->
     <header class='header'>
-      <img class='header__logo' src='assets/img/logo.png' alt="Logo Assoc'isson"/>
+      <img class='header__logo' src='assets/img/logo.png' srcset='assets\img\logo-320.png 320w, assets\img\logo-640.png 640w' sizes='100vw' alt="Logo Assoc'isson"/>
+      <h1 class='title' style='display:none'>L'Assoc'isson</h1>
       <h2 class='header__slogan'>Le terroir à l'unisson !</h2>
     </header>
+    <!-- ===== END HEADER ===== -->
 
+  <!-- ===== START NAVBAR ===== -->
     <nav class='navbar'>
       <ul class='navbar__ul'>
         <li class='navbar__element'>
@@ -26,13 +31,15 @@
           <a href='#engagement' class='navbar__link'>Notre engagement</a>
         </li>
         <li class='navbar__element'>
-          <a href='#qui' class='navbar__link'>Agenda</a>
+          <a href='#qui' class='navbar__link'>Calendrier</a>
         </li>
       </ul>
     </nav>
+    <!-- ===== END NAVBAR ===== -->
 
   <main class='main'>
 
+  <!-- ===== START QUI SECTION ===== -->
     <section class='qui' id='qui'>
       <div class='qui__entilted'>
         <div class='barre1'></div>
@@ -41,7 +48,7 @@
       </div>
 
       <figure class='qui__figure'>
-        <img class='qui__illustration' id='qui__illustration' src='assets\img\associsson.jpg' alt="Le collectif Assoc'isson"/>
+        <img class='qui__illustration' id='qui__illustration' src='assets\img\associsson.jpg' srcset='assets\img\associsson-320.jpg 320w' sizes='100vw' alt="Le collectif Assoc'isson"/>
         <figcaption>
           <label for='qui__illustration' class='qui__description'>La fière équipe au complet</label>
         </figcaption>
@@ -51,9 +58,11 @@
         <p class='qui__presentation'>Basée dans la petite bourgade de Jambognac dans le Périgord Noir, l'Assoc'isson est un collectif formé de petits commerçants locaux, agriculteurs, éleveurs, joueurs de pétanque, et bien d'autres. Ce qui unit les membres de l'Assoc'isson, c'est d'abord l'amour inconditionné de notre terroir français et du patrimoine rural en général, qui se trouve aujourd'hui menacé par la toute puissance des grandes villes.</p>
       </article>
     </section>
+  <!-- ===== END QUI SECTION ===== -->
 
     <div class='intersection'></div>
 
+  <!-- ===== START ENGAGEMENT SECTION ===== -->
     <section id='engagement' class='engagement'>
       <div class='engagement__entilted'>
         <div class='barre1'></div>
@@ -62,7 +71,7 @@
       </div>
 
       <figure class='engagement__figure engagement__figure--1'>
-        <img class='engagement__illustration engagement__illustration--1' id='engagement__illustration1' src='assets\img\livraison-1.jpg' alt="Agriculteur de Jambognac charcutier Gautier"/>
+        <img class='engagement__illustration engagement__illustration--1' id='engagement__illustration1' src='assets\img\livraison-1.jpg' srcset='assets\img\livraison-1-320.jpg 320w' sizes='100vw' alt="Agriculteur de Jambognac charcutier Gautier"/>
         <figcaption class='engagement__figcaption engagement__figcaption--1'>
           <label for='engagement__illustration1' class='engagement__description engagement__description--1'>La 4L de Jacky le livreur</label>
         </figcaption>
@@ -73,11 +82,11 @@
       </article>
 
       <figure class='engagement__figure engagement__figure--2'>
-        <img class='engagement__illustration engagement__illustration--2' id='engagement__illustration2' src='assets\img\charcutier-1.jpg' alt="Agriculteur de Jambognac charcutier Gautier"/>
+        <img class='engagement__illustration engagement__illustration--2' id='engagement__illustration2' src='assets\img\charcutier-1.jpg' srcset='assets\img\charcutier-1-320.jpg 320w' sizes='100vw' alt="Agriculteur de Jambognac charcutier Gautier"/>
         <figcaption class='engagement__figcaption engagement__figcaption--2'>
           <label for='engagement__illustration2' class='engagement__description engagement__description--2'>Gautier le charcutier de Saucissonville</label>
         </figcaption>
-        <img class='engagement__illustration engagement__illustration--3' id='engagement__illustration3' src='assets\img\agriculteur-1.jpg' alt="Agriculteur de Jambognac fromager Gégé"/>
+        <img class='engagement__illustration engagement__illustration--3' id='engagement__illustration3' src='assets\img\agriculteur-1.jpg' srcset='assets\img\agriculteur-1-320.jpg 320w, assets\img\agriculteur-1-640.jpg 640w' sizes='100vw' alt="Agriculteur de Jambognac fromager Gégé"/>
         <figcaption class='engagement__figcaption--3'>
           <label for='engagement__illustration3' class='engagement__description engagement__description--3'>Gégé le fromager de Terriniac</label>
         </figcaption>
@@ -87,17 +96,91 @@
         <p class='engagement__presentation engagement__presentation--2'>Chaque Samedi, l'Assoc'isson organise, en partenariat avec les commerçants et agriculteurs de la région, un marché sur la Place de Jambognac. Une belle occasion pour les artisans d'être en contact avec les consommateurs, et pour les habitants du coin de faire le plein de succulents mets de leur région ! Venez découvrir Gautier le charcutier, Gégé le fromager, Maurice le producteur de pastis, Baptiste le caviste, et les 17 autres producteurs venant de Jambognac, Vinrougignon, Terriniac, Saucissonville et Pétanbourg.</p>
       </article>
     </section>
+    <!-- ===== END ENGAGEMENT SECTION ===== -->
   
     <div class='intersection'></div>
 
+  <!-- ===== START AGENDA SECTION ===== -->
     <section class='agenda' id='agenda'>
       <div class='agenda__entilted'>
         <div class='barre1'></div>
-        <h2 class='agenda__title'>Agenda</h2>
+        <h2 class='agenda__title'>Calendrier</h2>
         <div class='barre2'></div>
       </div>
-    </section>
 
+      <div class='eventGrid'>
+
+        <article class='event'>
+          <h3 class='event__date'>18/06/2021</h3>
+          <figure class='event__figure'>
+            <img class='event__illustration' src='assets\img\petanque.jpg' srcset='assets\img\petanque-320.jpg 320w, assets\img\petanque-640.jpg 640w' sizes='100vw' alt=" organisé par l'Associsson" />
+            <figcaption class='event__presentation'>
+              <h3 class='event__title'>Grand tournoi de pétanque à Pétambourg</h3>
+              <div class='event__trait'></div>
+              <p class='event__description'>La mairie de Pétambourg, en collaboration avec l'Assoc'isson, organise le plus grand tournoi de pétanque du Sud-Ouest. Bière, pastis, sauciflare et rigolade au rendez-vous ! Venez en famille ou entre amis vous confronter aux plus grands boulistes du monde tels que Phillipe Quintais, Phillipe Suchaud, Christian Fazzino ou encore Dylan Rocher !</p>
+            </figcaption>
+          </figure>
+        </article>
+
+
+
+        <article class='event'>
+          <h3 class='event__date'>16/07/2021</h3>
+          <figure class='event__figure'>
+            <img class='event__illustration' src='assets\img\petanque.jpg' srcset='assets\img\petanque-320.jpg 320w, assets\img\petanque-640.jpg 640w' sizes='100vw' alt=" organisé par l'Associsson" />
+            <figcaption class='event__presentation'>
+              <h3 class='event__title'>Fête estivale du Camping Pastissou</h3>
+              <div class='event__trait'></div>
+              <p class='event__description'>La mairie de Pétambourg, en collaboration avec l'Assoc'isson, organise le plus grand tournoi de pétanque du Sud-Ouest. Bière, pastis, sauciflare et rigolade au rendez-vous ! Venez en famille ou entre amis vous confronter aux plus grands boulistes du monde tels que Phillipe Quintais, Phillipe Suchaud, Christian Fazzino ou encore Dylan Rocher !</p>
+            </figcaption>
+          </figure>
+        </article>
+
+
+
+        <article class='event'>
+          <h3 class='event__date'>29/09/2021</h3>
+          <figure class='event__figure'>
+            <img class='event__illustration' src='assets\img\petanque.jpg' srcset='assets\img\petanque-320.jpg 320w, assets\img\petanque-640.jpg 640w' sizes='100vw' alt=" organisé par l'Associsson" />
+            <figcaption class='event__presentation'>
+              <h3 class='event__title'>Meating politique de Jean Lassale</h3>
+              <div class='event__trait'></div>
+              <p class='event__description'>La mairie de Pétambourg, en collaboration avec l'Assoc'isson, organise le plus grand tournoi de pétanque du Sud-Ouest. Bière, pastis, sauciflare et rigolade au rendez-vous ! Venez en famille ou entre amis vous confronter aux plus grands boulistes du monde tels que Phillipe Quintais, Phillipe Suchaud, Christian Fazzino ou encore Dylan Rocher !</p>
+            </figcaption>
+          </figure>
+        </article>
+
+
+
+        <article class='event'>
+          <h3 class='event__date'>09/11/2021</h3>
+          <figure class='event__figure'>
+            <img class='event__illustration' src='assets\img\petanque.jpg' srcset='assets\img\petanque-320.jpg 320w, assets\img\petanque-640.jpg 640w' sizes='100vw' alt=" organisé par l'Associsson" />
+            <figcaption class='event__presentation'>
+              <h3 class='event__title'>Journée du Saucisson</h3>
+              <div class='event__trait'></div>
+              <p class='event__description'>La mairie de Pétambourg, en collaboration avec l'Assoc'isson, organise le plus grand tournoi de pétanque du Sud-Ouest. Bière, pastis, sauciflare et rigolade au rendez-vous ! Venez en famille ou entre amis vous confronter aux plus grands boulistes du monde tels que Phillipe Quintais, Phillipe Suchaud, Christian Fazzino ou encore Dylan Rocher !</p>
+            </figcaption>
+          </figure>
+        </article>
+
+
+        <article class='event'>
+          <h3 class='event__date'>25/12/2021</h3>
+          <figure class='event__figure'>
+            <img class='event__illustration' src='assets\img\petanque.jpg' srcset='assets\img\petanque-320.jpg 320w, assets\img\petanque-640.jpg 640w' sizes='100vw' alt=" organisé par l'Associsson" />
+            <figcaption class='event__presentation'>
+              <h3 class='event__title'>Marché de Noël de Jambognac</h3>
+              <div class='event__trait'></div>
+              <p class='event__description'>La mairie de Pétambourg, en collaboration avec l'Assoc'isson, organise le plus grand tournoi de pétanque du Sud-Ouest. Bière, pastis, sauciflare et rigolade au rendez-vous ! Venez en famille ou entre amis vous confronter aux plus grands boulistes du monde tels que Phillipe Quintais, Phillipe Suchaud, Christian Fazzino ou encore Dylan Rocher !</p>
+            </figcaption>
+          </figure>
+        </article>
+
+    </div>
+
+    </section>
+  <!-- ===== END AGENDA SECTION ===== -->
   </main>
 
   </body>
