@@ -24,15 +24,21 @@
 
   <!-- ===== START NAVBAR ===== -->
     <nav class='navbar'>
+      <div class='navbar__logoContainer'>
+        <img class='navbar__logo' src='assets/img/logo-320.png' alt="logo de Assoc'isson">
+      </div>
       <ul class='navbar__ul'>
-        <li class='navbar__element'>
+        <li class='navbar__element underline'>
           <a href='#qui' class='navbar__link'>Qui sommes-nous ?</a>
+          <div class='underlined'></div>
         </li>
-        <li class='navbar__element'>
+        <li class='navbar__element underline'>
           <a href='#engagement' class='navbar__link'>Notre engagement</a>
+          <div class='underlined'></div>
         </li>
-        <li class='navbar__element'>
-          <a href='#qui' class='navbar__link'>Calendrier</a>
+        <li class='navbar__element underline'>
+          <a href='#agenda' class='navbar__link'>Calendrier</a>
+          <div class='underlined'></div>
         </li>
       </ul>
     </nav>
@@ -89,9 +95,19 @@
         <figcaption class='engagement__figcaption engagement__figcaption--2'>
           <label for='engagement__illustration2' class='engagement__description engagement__description--2'>Gautier le charcutier de Saucissonville</label>
         </figcaption>
+      </figure>
+
+      <figure class='engagement__figure engagement__figure--3'>
         <img class='engagement__illustration engagement__illustration--3' id='engagement__illustration3' src='assets\img\agriculteur-1.jpg' srcset='assets\img\agriculteur-1-320.jpg 320w, assets\img\agriculteur-1-640.jpg 640w, assets\img\agriculteur-1.jpg 800w' sizes='(max-width: 320px) 320px, (max-width: 640px) 640px, 800px' alt="Agriculteur de Jambognac fromager Gégé"/>
         <figcaption class='engagement__figcaption--3'>
           <label for='engagement__illustration3' class='engagement__description engagement__description--3'>Gégé le fromager de Terriniac</label>
+        </figcaption>
+      </figure>
+
+      <figure class='engagement__figure engagement__figure--4'>
+        <img class='engagement__illustration engagement__illustration--3' id='engagement__illustration3' src='assets\img\marche.jpg' srcset='assets\img\marche-320.jpg 320w, assets\img\marche-640.jpg 640w, assets\img\marche.jpg 800w' sizes='(max-width: 320px) 320px, (max-width: 640px) 640px, 800px' alt="Marché de l'Assoc'isson"/>
+        <figcaption class='engagement__figcaption--4'>
+          <label for='engagement__illustration3' class='engagement__description engagement__description--4'>Le fameux marché de l'Assoc'isson</label>
         </figcaption>
       </figure>
 
@@ -162,7 +178,7 @@
             <figcaption class='event__presentation'>
               <h3 class='event__title'>Journée du Saucisson</h3>
               <div class='event__trait'></div>
-              <p class='event__description'>Pour fêter comme il se doit l'anniversaire de la création de l'Assoc'isson, nous organisons avec le département du Pérogord les Grands Jeux de la Journée du Saucisson, qui se dérouleront dans l'arène de Terriniac. Les athlètes se répartiront selon quatre disciplines: le lancer de saucisson, la course de 4L, la joûte au jambon, et le saut de meules. Gloire au vainqueur ! Pour participer, rendez-vous sur le site de la mairie de Terriniac.</p>
+              <p class='event__description'>Pour fêter comme il se doit l'anniversaire de la création de l'Assoc'isson, nous organisons avec le département du Périgord les Grands Jeux de la Journée du Saucisson, qui se dérouleront dans l'arène de Terriniac. Les athlètes se répartiront selon quatre disciplines: le lancer de saucisson, la course de 4L, la joûte au jambon, et le saut de meules. Gloire au vainqueur ! Pour participer, rendez-vous sur le site de la mairie de Terriniac.</p>
             </figcaption>
           </figure>
         </article>
@@ -175,7 +191,7 @@
             <figcaption class='event__presentation'>
               <h3 class='event__title'>Marché de Noël de Jambognac</h3>
               <div class='event__trait'></div>
-              <p class='event__description'>C'est dans le plus grand respect de nos traditions que les bénévoles de l'Assoc'isson organisent en cette fin d'année le plus grand marché de Noël du Périgord. Venez y déguster de sublimes marrons chauds fraichement cueillis par Roger du verger et préparés par Brigitte à la marmite. Noël Peyre, notre intermitant du spectacle associé, interprêtera le Père Noël pour le plus grand bonheur de vos enfants. De nombreux stands proposant une pelletée de produits du locaux et artisanaux seront installés pour l'occasion. Une occasion en or de faire la provision de charcuterie!</p>
+              <p class='event__description'>C'est dans le plus grand respect de nos traditions que les bénévoles de l'Assoc'isson organisent en cette fin d'année le plus grand marché de Noël du Périgord. Venez y déguster de sublimes marrons chauds fraichement cueillis par Roger du verger et préparés par Brigitte à la marmite. Noël Peyre, notre intermitant du spectacle associé, interprêtera le Père Noël pour le plus grand bonheur de vos enfants. De nombreux stands proposant une pelletée de produits locaux et artisanaux seront installés pour l'occasion. Une occasion en or de faire la provision de charcuterie!</p>
             </figcaption>
           </figure>
         </article>
@@ -189,7 +205,7 @@
             <figcaption class='event__presentation'>
               <h3 class='event__title'>Marche nocturne pour le vin</h3>
               <div class='event__trait'></div>
-              <p class='event__description'>Depuis de nombreuses années, les chinois achètent un à un nos plus grands vignerons historiques. Que faire devant une telle assimilation de notre patrimoine? L'Assoc'isson organise une grande marche nocturne pour protéger notre terroir, et que le vin français garde sa grandeur. Artisans, politiciens, étudiants, ruraux, citadins, venez nombreux soutenir cette cause noble pour sauver l'âme de notre pays!</p>
+              <p class='event__description'>Depuis de nombreuses années, les vignerons se plient à une pratique venue de l'étranger: l'utilisation massive de pesticides. Que faire devant une telle industrialisation outrancière, qui empoisonne tant nos personnes que notre patrimoine? L'Assoc'isson organise une grande marche nocturne pour protéger notre terroir, et que le vin français garde sa grandeur. Artisans, politiciens, étudiants, ruraux, citadins, venez nombreux soutenir cette cause noble pour sauver l'âme de notre pays!</p>
             </figcaption>
           </figure>
         </article>
@@ -252,7 +268,10 @@
 
     </div>
     </footer>
-<!-- ===== START FOOTER ===== -->
+<!-- ===== END FOOTER ===== -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='script.js'></script>
+<script></script>
   </body>
 </html>
