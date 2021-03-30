@@ -129,6 +129,7 @@ p {
   @media screen and (min-width: 1000px) {
     z-index: 10000;
     position: fixed;
+    width: 100vw;
     top: 0;
   }
 }
